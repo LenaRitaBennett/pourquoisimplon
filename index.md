@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html> <!--Déclaration du type de fichier, document-->
 
-You can use the [editor on GitHub](https://github.com/LenaRitaBennett/pourquoisimplon/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
 
-### Markdown
+	<meta charset = "utf-8" />
+	<link rel="stylesheet" href="style.css" /> <!--Ligne permettant l'incorporation du style, le fichier CSS-->
+	<title>Pourquoi intégrer Simplon.co</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</head>
 
-```markdown
-Syntax highlighted code block
+<body>
 
-# Header 1
-## Header 2
-### Header 3
+	<h1 class = "nom">Léna ROUX</h1> <!--Titre "plus important".-->
+	<p class = "intro">Je veux intégrer Simplon, mais pourquoi ?</p>
+	<a href = "images/lenaphoto.jpg"><img src = "images/lenaphoto_mini.png" class = "photo" alt = "Photo de profile" title = "Cliquez pour voir l'image en taille réelle"/></a> <!--Permet d'afficher une image, un texte en la survolant, et permet de voir l'originale en cliquant dessus.-->
 
-- Bulleted
-- List
+ 
 
-1. Numbered
-2. List
+	<h2>L'important</h2>	<!--Titre "plus petit"-->
+		<ul class = "exp"> <!--Liste-->
+			<li>Je veux devenir développeur</li>
+			<li>Je suis sympathique et motivée</li>
+			<li>J'aime partager des choses avec des gens différents c'est pourquoi je pense que Simplon me correspond</li>
+		</ul> 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LenaRitaBennett/pourquoisimplon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ <!-- Media section start -->
